@@ -1,0 +1,22 @@
+[project]
+name = "rustpy"
+version = "0.1.0"
+description = "Example Rust & Python project"
+readme = "README.md"
+authors = [
+    { name = "Krzysztof Arendt", email = "16005748+krzysztofarendt@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+rustpy = "rustpy:main"
+
+[tool.maturin]
+module-name = "rustpy._core"
+python-packages = ["rustpy"]
+python-source = "src"
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
