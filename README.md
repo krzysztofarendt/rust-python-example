@@ -18,7 +18,6 @@ or have Rust-only unit tests.
 
 Steps to setup a similar project:
 ```bash
-uv tool install maturin
 uv init --build-backend maturin rustpy
 uvx maturin develop
 uv sync
