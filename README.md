@@ -7,7 +7,7 @@ written in Rust.
 
 This is quite simple thanks to the available tools:
 - [uv](https://docs.astral.sh/uv/) for managing Python project
-- [maturin](https://www.maturin.rs/) crate for exporting your Rust code to a Python module
+- [maturin](https://www.maturin.rs/) crate for exporting your Rust code into a Python module
 - [PyO3](https://pyo3.rs/) crate for generating Rust bindings for Python
 - [cargo](https://doc.rust-lang.org/cargo/) for standard management of Rust code
 
