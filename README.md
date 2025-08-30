@@ -11,9 +11,6 @@ This is quite simple thanks to the available tools:
 - [PyO3](https://pyo3.rs/) crate for generating Rust bindings for Python
 - [cargo](https://doc.rust-lang.org/cargo/) for standard management of Rust code
 
-`cargo` is not needed unless you want to also compile some additional binaries
-or have Rust-only unit tests.
-
 ## Project setup
 
 Steps to setup a similar project:
